@@ -53,9 +53,12 @@
     <h1 class="h3 mb-3 fw-normal">Sign Up For My Coffee Newsletter</h1>
 
     <div class="form-floating">
-      <input type="text" name="firstName" class="form-control top"  placeholder="First Name" required autofocus>
-      <input type="text" name="lastName" class="form-control middle"  placeholder="Last Name"  required>
-      <input type="email" name="email" class="form-control bottom" placeholder="Email" required>
+      <label for="inputFirstName" class="sr-only">First Name</label>
+      <input type="text" name="firstName" id="inputFirstName" class="form-control top"  placeholder="First Name" required autofocus>
+      <label for="inputLastName" class="sr-only">Last Name</label>
+      <input type="text" name="lastName" id="inputLastName" class="form-control middle"  placeholder="Last Name"  required>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" name="email" id="inputEmail" class="form-control bottom" placeholder="Email" required>
     </div>
     
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>

@@ -15,6 +15,8 @@ lerna-debug.log*
 # My Ignores
 package.json
 package-lock.json
+api_key.js
+
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
